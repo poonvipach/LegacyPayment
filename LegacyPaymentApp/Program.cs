@@ -169,12 +169,16 @@ namespace LegacyPaymentApp
             var service = new PaymentService(cachedService, strategies);
     
             Console.WriteLine("--- เริ่มทดสอบระบบชำระเงินแบบมีแคช ---");
+            
             // รายการที่ 1: จะช้า 2 วินาที (เพราะดึงครั้งแรกเข้า Cache)
             Console.WriteLine($"\n [{DateTime.Now:HH:mm:ss}] กำลังประมวลผลชิ้นที่ 1...");
             service.ProcessPayment("CreditCard", 1000, "THB");
+
             // รายการที่ 2: สกุลเงินเดิม "THB" ต้องเร็วทันทีแบบไม่ค้างเลย!
             Console.WriteLine($"\n [{DateTime.Now:HH:mm:ss}] กำลังประมวลผลชิ้นที่ 2 (สกุลเงินเดิม)...");
             service.ProcessPayment("PayPal", 500, "THB");
+
+            Console.WriteLine($"\n [{DateTime.Now:HH:mm:ss}] ประมวลผลชิ้นที่ 2 เสร็จสิ้น!"); 
             Console.WriteLine("\n--- จบการทดสอบ ---");
         }
     }

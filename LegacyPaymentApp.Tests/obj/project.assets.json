@@ -5886,11 +5886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LegacyPayment\\LegacyPaymentApp.Tests\\LegacyPaymentApp.Tests.csproj",
+      "projectUniqueName": "f:\\LegacyPayment\\LegacyPaymentApp.Tests\\LegacyPaymentApp.Tests.csproj",
       "projectName": "LegacyPaymentApp.Tests",
-      "projectPath": "F:\\LegacyPayment\\LegacyPaymentApp.Tests\\LegacyPaymentApp.Tests.csproj",
+      "projectPath": "f:\\LegacyPayment\\LegacyPaymentApp.Tests\\LegacyPaymentApp.Tests.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\LegacyPayment\\LegacyPaymentApp.Tests\\obj\\",
+      "outputPath": "f:\\LegacyPayment\\LegacyPaymentApp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5907,8 +5907,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\LegacyPayment\\LegacyPaymentApp\\LegacyPaymentApp.csproj": {
-              "projectPath": "F:\\LegacyPayment\\LegacyPaymentApp\\LegacyPaymentApp.csproj"
+            "f:\\LegacyPayment\\LegacyPaymentApp\\LegacyPaymentApp.csproj": {
+              "projectPath": "f:\\LegacyPayment\\LegacyPaymentApp\\LegacyPaymentApp.csproj"
             }
           }
         }
